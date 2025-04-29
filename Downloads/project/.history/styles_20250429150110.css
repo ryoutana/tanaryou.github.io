@@ -1,0 +1,31 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#mapContainer {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    border: 1px solid #ccc;
+}
+
+path {
+    fill: rgba(200, 200, 200, 0.5); /* デフォルトの薄い灰色 */
+    stroke: black;
+    stroke-width: 1;
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+
+path:hover {
+    fill: rgba(144, 238, 144, 0.5); /* 黄緑 */
+}

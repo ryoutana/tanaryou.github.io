@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffdd0; /* 背景をクリーム色に設定 */
+    overflow-y: auto; /* 縦スクロールを有効にする */
+}
+
+html {
+    overflow-y: auto; /* 縦スクロールを有効にする */
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    background-color: #c19a6b; /* テロップの背景を黄土色に設定 */
+    color: white; /* テロップの文字色を白に設定 */
+    padding: 20px 0;
+}
+
+#mapContainer {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 20px auto; /* 上下に余白を追加 */
+}
+
+#introImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#spotContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+#buttons {
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #f0f0f0; /* ボタンセクションの背景色 */
+}
+
+#buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.spot-button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4CAF50; /* ボタンの背景色 */
+    color: white; /* ボタンの文字色 */
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.spot-button:hover {
+    background-color: #45a049; /* ホバー時のボタン色 */
+}
